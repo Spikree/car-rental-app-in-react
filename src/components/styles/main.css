@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+/* header styles */
+
+header {
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.nav-items ul {
+    padding-top: 15px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: 600;
+    font-size: large;
+} 
+
+.nav-items ul li:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+
+/* about us */
+
+.about-h1 {
+    font-size: xx-large;
+}
+
+.about-us p {
+    max-width: 700px;
+}
+
+.about-us-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us {
+    padding-left: 180px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cars-images {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    width: 100%;
+    height: max(20vw, 100px);
+}
+
+.cars-images img {
+    border-radius: 30px;
+}
+
+/* 
+footer  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 90;
+}
+
+.about-us-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+/* 
+courousel */
+
+.carousel-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .slide {
+    max-width: 80px;
+    max-height: 80px; /* Adjust height as needed */
+  }
+  
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+  }
+  
+
