@@ -1,7 +1,6 @@
-import Header from "./Header";
+
 function Cars() {
     return <>
-    <Header />
     <div className="page-header">
         <h1>Need a big or small car</h1>
         <p>we have them all compact, Mid-sized Full size, Mini-vans, and convertables</p>
