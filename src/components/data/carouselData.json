@@ -1,0 +1,20 @@
+{
+    "slides" : [
+        {
+            "src" : "https://www.livemint.com/lm-img/img/2023/04/03/600x338/H4sIAAAAAAAAAC2VyaolxxGGj7rRgMEStjHGL9AIBI6ah8XFSG_1664643303881_1680517788034_1680517788034.jpg",
+            "alt": "car 1"
+        },
+        {
+            "src": "https://www.thestatesman.com/wp-content/uploads/2018/12/bmw.jpg",
+            "alt": "car 2"
+        },
+        {
+            "src": "https://imgd-ct.aeplcdn.com/664x374/n/cw/ec/94279/amg-gla35-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
+            "alt": "car 3"
+        },
+        {
+            "src": "https://wallpaperswide.com/download/white_porsche_car-wallpaper-1280x720.jpg",
+            "alt": "car 4"
+        }
+    ]
+}
