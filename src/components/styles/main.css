@@ -6,6 +6,9 @@
 
 /* header styles */
 
+.nav-items ul li a {
+    color: gray;
+}
 
 header {
     padding-top: 3px;
@@ -24,7 +27,7 @@ header {
     font-size: large;
 } 
 
-.nav-items ul li:hover {
+.nav-items ul li a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -120,5 +123,98 @@ courousel */
     border: none;
     font-size: 1.5rem;
   }
-  
+
+
+/* cars  */
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    gap:200px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+.icon {
+    font-size: 50px;
+    padding-left: 140px;
+    color: gray;
+}
+
+.icon:hover {
+    color: purple;
+}
+
+.components h3 {
+    align-items: center;
+    align-self: center;
+}
+
+.page-header {
+    padding-left: 40px;
+}
+
+.page-header h1 {
+    font-size: 80px;
+    color: orange;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.page-header-paragraph {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: purple;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.components h3 {
+    color: gray;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.components p {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: gray;
+}
+
+.main-cars {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+/* card */
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #555;
+  }
 

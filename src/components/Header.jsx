@@ -1,4 +1,5 @@
 import "./styles/main.css"
+import { Link } from 'react-router-dom';
 
 function Header() {
     return <>
@@ -7,18 +8,18 @@ function Header() {
             <h1 style={{color:"purple"}}>Miles <span style={{color: "orange"}}>Rental</span></h1>
         </div>
         <div className="nav-items">
-            <ul className="nav-items">
-                <li>
-                    About us
+            <ul >
+                <li >
+                    <Link to="/">About us</Link>
                 </li>
                 <li>
-                    Locations
+                    <Link to="Location">Location</Link>
                 </li>
                 <li>
-                    Cars
+                    <Link to="Cars">Cars</Link>
                 </li>
                 <li>
-                    Cart
+                    <Link to="Cart">Cart</Link>
                 </li>
             </ul>
         </div>
