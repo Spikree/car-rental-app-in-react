@@ -7,10 +7,10 @@ function AboutUs() {
     <div className="about-us-main"> 
         <div className="about-us">
             <div>
-            <h1 className="about-h1">About <span>us</span></h1>
+            <h1 className="about-h1">About <span className="us">us</span></h1>
             <p>Your journey starts here.</p>
             </div>
-            <p>
+            <p style={{color: "gray"}}> 
 Unleash your travel spirit with Miles Rental! Navigate cityscapes or conquer countryside wonders – our versatile fleet fuels your escape. Experience the freedom of choice, from budget-friendly rides to luxury cruisers. We offer competitive rates, exceptional service, and unwavering commitment to quality and safety. Miles Rental: where every journey begins with unforgettable smiles.</p>
         </div>
         <div className="cars-images">
@@ -28,7 +28,7 @@ Unleash your travel spirit with Miles Rental! Navigate cityscapes or conquer cou
     <br />
     <br />
     
-    <Footer/>
+    <Footer />
     </div>
     </>
 }

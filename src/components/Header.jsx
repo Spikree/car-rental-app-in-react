@@ -4,10 +4,10 @@ function Header() {
     return <>
     <header>
         <div className="logo">
-            <h1 style={{color:"blue"}}>Miles <span style={{color: "orange"}}>Rental</span></h1>
+            <h1 style={{color:"purple"}}>Miles <span style={{color: "orange"}}>Rental</span></h1>
         </div>
         <div className="nav-items">
-            <ul>
+            <ul className="nav-items">
                 <li>
                     About us
                 </li>

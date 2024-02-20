@@ -6,6 +6,7 @@
 
 /* header styles */
 
+
 header {
     padding-top: 3px;
     display: flex;
@@ -14,6 +15,7 @@ header {
 
 
 .nav-items ul {
+    color: gray;
     padding-top: 15px;
     display: flex;
     list-style: none;
@@ -24,14 +26,17 @@ header {
 
 .nav-items ul li:hover {
     text-decoration: underline;
-    color: gray;
+    color: black;
 }
 
 
 /* about us */
 
 .about-h1 {
-    font-size: xx-large;
+    font-size: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: purple;
 }
 
 .about-us p {
@@ -43,12 +48,27 @@ header {
     justify-content: space-evenly;
 }
 
+.us {
+    color:  rgb(235, 188, 100);
+} 
+
+.us:hover {
+    color: orange;
+}
+
 .about-us {
     padding-left: 180px;
-    padding-top: 120px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.about-us div p {
+    color: orange;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .cars-images {
@@ -62,6 +82,7 @@ header {
 .cars-images img {
     border-radius: 30px;
 }
+
 
 /* 
 footer  */
