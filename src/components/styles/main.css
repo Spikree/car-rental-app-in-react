@@ -42,12 +42,15 @@ header {
     color: purple;
 }
 
+
+
 .about-us p {
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .about-us-main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -60,7 +63,7 @@ header {
 }
 
 .about-us {
-    padding-left: 180px;
+    padding-left: 40px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
