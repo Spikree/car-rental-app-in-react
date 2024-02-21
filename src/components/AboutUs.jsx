@@ -23,11 +23,8 @@ Unleash your travel spirit with Miles Rental! Navigate cityscapes or conquer cou
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <Footer />
+    <br />
     </div>
     </>
 }
