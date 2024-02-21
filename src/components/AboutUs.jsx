@@ -17,7 +17,7 @@ Unleash your travel spirit with Miles Rental! Navigate cityscapes or conquer cou
         </div>
         </div>
         <div className="cars-images-about">
-            <img src="https://www.seekpng.com/png/detail/213-2133261_new-2019-mercedes-benz-glc-glc-2018-mercedes.png" alt="" />
+            <img className="about-image" src="https://www.seekpng.com/png/detail/213-2133261_new-2019-mercedes-benz-glc-glc-2018-mercedes.png" alt="" />
         </div>
     </div>
     <br />

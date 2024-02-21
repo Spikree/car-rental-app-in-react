@@ -65,6 +65,14 @@ header {
     color: orange;
 }
 
+.about-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image:hover {
+    transform: scale(1.1);
+}
+
 .about-us {
     padding-left: 40px;
     padding-top: 30px;
