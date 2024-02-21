@@ -8,6 +8,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { slides } from  "./data/carouselData.json"
 import Carousel from "./Carousel";
 import carsData from "./data/carsData";
+import Footer from "./Footer";
 
 function Cars() {
     return <>
@@ -56,6 +57,8 @@ function Cars() {
         })}
 
     </div>
+    <Footer />
+    <br />
     </div>
     </>
 }
