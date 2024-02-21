@@ -3,7 +3,7 @@ function Footer() {
     let year = date.getFullYear();
     return <>
         <footer style={{color: "gray"}}>
-            copyright © {year}
+             © {year} Miles Rental
         </footer>
     </>
 }
