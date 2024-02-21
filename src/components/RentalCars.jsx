@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 function RentalCars(props) {
     return <>
     <div className="card">
@@ -5,6 +7,7 @@ function RentalCars(props) {
     <div className="card-content">
     <div className="card-title">{props.carName}</div>
     <div className="card-text">{props.carPrice}</div>
+    <div className="icon-cart"><FontAwesomeIcon className="icon-cart" icon={faShoppingCart} /></div>
     </div>
     </div>
     </>

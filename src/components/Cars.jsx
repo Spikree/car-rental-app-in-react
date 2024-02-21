@@ -7,6 +7,7 @@ import { faPlane } from '@fortawesome/free-solid-svg-icons'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
 import { slides } from  "./data/carouselData.json"
 import Carousel from "./Carousel";
+import carsData from "./data/carsData";
 
 function Cars() {
     return <>
@@ -45,10 +46,15 @@ function Cars() {
     </div>
     </div>
     <div className="rental-cars">
-        <RentalCars imageLink={"https://di-uploads-pod13.dealerinspire.com/paautosales/uploads/2020/07/honda_odyssey_2020_minivan-_family_car.jpg"} carPrice={"$6.99/mile"} carName={"Honda mini van"} />
-        {/* <RentalCars imageLink={} carPrice={} carName={} />
-        <RentalCars imageLink={} carPrice={} carName={} />
-        <RentalCars imageLink={} carPrice={} carName={} /> */}
+        {carsData.map((car) => {
+          return <RentalCars
+            key = {car.id}
+            imageLink = {car.imgUrl}
+            carName = {car.name}
+            carPrice = {car.price}
+        />
+        })}
+
     </div>
     </div>
     </>

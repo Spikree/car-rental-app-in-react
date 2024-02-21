@@ -8,6 +8,7 @@
 
 .nav-items ul li a {
     color: gray;
+    text-decoration: none;
 }
 
 header {
@@ -89,6 +90,28 @@ header {
     width: 700px;
     margin-top: 100px;
     border-radius: 30px;
+}
+
+.btn-box button {
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: orange;
+    border-style: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-box button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-box button:hover {
+    background-color: purple;
 }
 
 
@@ -181,7 +204,13 @@ footer {
     padding-top: 0px;
 }
 
-
+.rental-cars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    padding-left: 30px;
+    padding-top: 0;
+}
 
 /* card */
 
@@ -211,6 +240,18 @@ footer {
   .card-text {
     font-size: 14px;
     color: #555;
+  }
+
+  .icon-cart{
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 0px;
+    margin-left: 115px;
+    margin-top: 0px;
+  }
+
+  .icon-cart:hover {
+    color: orange;
   }
 
   /* carousel */
