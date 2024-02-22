@@ -1,10 +1,11 @@
 import "./styles/main.css"
 import { Link } from 'react-router-dom';
-
+import Sidebar from "./Sidebar";
 function Header() {
     return <>
     <header>
-        <div className="logo">
+        <Sidebar />
+        <div className="logo">  
             <h1 style={{color:"purple"}}>Miles <span style={{color: "orange"}}>Rental</span></h1>
         </div>
         <div className="nav-items">

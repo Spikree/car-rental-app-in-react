@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+.dropdown {
+    display: none;
+}
+
 header {
     padding-top: 3px;
     display: flex;
@@ -345,6 +349,116 @@ iframe {
     align-items: center;
     margin-top: 50px;
     flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    /* Header */
+
+    .nav-items {
+        display: none;
+    }
+
+    header {
+        display: flex;
+    }
+
+    /* about  */
+
+    .cars-images-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cars-images-about img {
+        width: 360px;
+    }
+
+    .about-us {
+        padding-right: 34px;
+    }
+
+    /* cars */
+
+    .page-header h1 {
+        font-size: 60px;
+    }
+
+    .page-header p {
+        font-size: 18px;
+    }
+
+    .cars-images {
+        display: none;
+    }
+
+    .icon {
+        padding-right: 140px;
+    }
+
+    .card {
+        margin-right: 32px;
+        padding-bottom: 0;
+    }
+
+    .icon-cart {
+        margin-left: 77px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .rental-cars {
+        padding-bottom: 0;
+    }
+
+    /* sidebar css */
+      
+      .dropdown-button {
+        background-color: white;
+        color: orange;
+        padding: 16px;
+        font-size: 25px;
+        font-weight: 250px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #f1f1f1
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown {
+        margin-top: 8px;
+        margin-right: 50px;
+      }
+
+      li {
+        list-style: none;
+        color: purple;
+        font-weight: 66px;
+      }
 }
 
 

@@ -5,10 +5,11 @@ import { useState } from "react";
 
 function Cart() {
     const [cart , addToCart] = useState([]);
-
+    console.log(cart)
     function addItemToCart(car) {
         addToCart(prevCar => {
             return [...prevCar , car]
+           
         });
     }
 
@@ -18,7 +19,7 @@ function Cart() {
     </>
     } else if (cart.length != 0) {
         return <>
-            <CartWithCars />
+            <CartWithCars/>
         </>
     }
 }
