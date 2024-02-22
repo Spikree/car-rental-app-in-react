@@ -7,7 +7,7 @@ function Location() {
     <div className="location">
         <div className="location-text">
             <h1>
-                We are available all across germany
+                We are available all across Germany
             </h1>
             <div className="btn-box">
         <Link to="/Cars"><button>our cars</button></Link>
