@@ -9,6 +9,7 @@ import { slides } from  "./data/carouselData.json"
 import Carousel from "./Carousel";
 import carsData from "./data/carsData";
 import Footer from "./Footer";
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 function Cars() {
     return <>
@@ -53,6 +54,7 @@ function Cars() {
             imageLink = {car.imgUrl}
             carName = {car.name}
             carPrice = {car.price}
+            icon = {faShoppingCart}
         />
         })}
 
