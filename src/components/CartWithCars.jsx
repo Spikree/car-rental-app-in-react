@@ -1,10 +1,10 @@
 import RentalCars from "./RentalCars";
 import "./styles/main.css";
 
-function CartWithCars() {
+function CartWithCars(props) {
     return <>
         List of cars you want to rent...
-        <RentalCars />
+        <RentalCars insertCar={props.insertCar}  />
     </>
 }
 

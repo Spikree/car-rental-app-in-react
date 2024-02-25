@@ -50,6 +50,7 @@ function Cars() {
     <div className="rental-cars">
         {carsData.map((car) => {
           return <RentalCars
+            id={car.id}
             key = {car.id}
             imageLink = {car.imgUrl}
             carName = {car.name}
