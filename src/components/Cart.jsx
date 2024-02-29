@@ -13,17 +13,13 @@ function Cart() {
         });
     }
 
-    function getCarId(id) {
-        console.log(id)
-    }
-
     if (cart.length === 0) {
         return <>
         <EmptyCart />
     </>
     } else if (cart.length != 0) {
         return <>
-            <CartWithCars insertCar={getCarId}/>
+            <CartWithCars/>
         </>
     }
 }
